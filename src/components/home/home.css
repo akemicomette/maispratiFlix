@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  background-color: black;
+}
+.home-container {
+  width: 100%;
+  height: 100%;
+}
+
+.home-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg,#080808 10%, black);
+  font-size: 0.8rem;
+  height: 5rem;
+  width: 100%;
+}
+
+.home-footer-noteNetflix, .home-footer-noteAPI{
+  color: white;
+  background: transparent;
+}

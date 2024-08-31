@@ -1,0 +1,46 @@
+.navBar {
+  background: linear-gradient(180deg, black 60%,#080808);
+  width: 100%;
+}
+
+.navBar-logo {
+  position: absolute;
+  background-color: transparent;
+  height: 3.5rem;
+  margin: 3rem 10rem;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  margin: 2rem 10rem;
+  padding: 3rem;
+}
+
+.search-bar-input {
+  width: 10rem;
+  padding: 1.2rem;
+  border: 0.09rem solid #8c8c8c;
+  border-radius: 0.5rem;
+  color:white;
+}
+
+.search-bar-input:hover {
+  background-color: #5f5f5f;
+  color: white;
+}
+
+.search-bar-button {
+  padding: 0.5rem 1.5rem;
+  border: 0.09rem solid #8c8c8c;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #E50914;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #e50914b7;
+}
+

@@ -1,0 +1,104 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color:rgba(0,0,0, 70%);
+  width: 24%;
+  min-height: 42rem;
+  margin: auto;
+  padding: 3rem 4.25rem;
+}
+
+.login-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: white;
+  align-self: flex-start;
+  padding: 1rem;
+}
+
+.login-email , .login-password {
+  height: 3rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.3rem;
+  border: 0.09rem solid #8c8c8c;
+  background-color: rgba(34,33,33, 0.6);
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  padding-left: 1rem;
+}
+
+.login-email::placeholder , .login-password::placeholder {
+  color: white;
+}
+
+.login-button {
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 550;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #E50914;
+}
+
+.login-or {
+  color: rgb(185, 182, 182);
+  font-size: 0.9rem;
+  align-self: center;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+
+.login-code-button {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  color: white;
+  border: 0.09rem solid #8c8c8c;
+  background-color: #8c8c8c5f;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login-forgot {
+  align-self: center;
+  color: white;
+  font-weight: 200;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+#login-remindMe {
+  margin: 0.5rem 0.5rem 1.5rem 0;
+}
+
+.login-checkbox-label, .login-signature{
+  color: white;
+}
+
+.login-signature-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding-left: 0.75rem;
+}
+
+.login-recaptcha {
+  color: rgb(152, 146, 146);
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.login-know-more {
+  color: rgb(28, 110, 234);
+  font-weight: 200;
+  padding-left: 0.2rem;
+}
